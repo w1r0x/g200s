@@ -1,3 +1,6 @@
+language: python
+python:
+  - '3.7'
 deploy:
   provider: pypi
   user: w1r0x
