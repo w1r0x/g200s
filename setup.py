@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="g200s",
-    version="0.0.2",
+    version="0.1.0",
     author="Denis Ryabyy",
     author_email="vv1r0x@gmail.com",
     description="Python module for interacting with Ready For Sky Skykettle G200S Teapot",
