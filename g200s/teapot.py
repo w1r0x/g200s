@@ -165,15 +165,18 @@ class Teapot:
         self._get_mode()
 
     def boil(self):
+        self.stop()
         self._set_mode(Mode.BOILING)
         self.run()
 
     def heat(self, temperature):
+        self.stop()
         self._set_mode(Mode.HEAT, temperature)
         self.run()
 
     # TODO: check for working
     def lamp(self):
+        self.stop()
         self._set_mode(Mode.LAMP)
         self.run()
 
